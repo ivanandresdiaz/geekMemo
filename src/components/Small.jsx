@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { SmallContainer } from './styledSmall';
 
-const Small = ({ value }) => {
+const Small = ({ value, show }) => {
+
   return (
-    <small>
+    <SmallContainer display={show ? 'inline' : 'none'}>
       {value}
-    </small>
+    </SmallContainer>
   );
 };
 

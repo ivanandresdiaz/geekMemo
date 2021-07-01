@@ -9,7 +9,7 @@ const Memorize = () => {
     <div>
       <h1>
         Counter:
-        <Small value={counter} />
+        <Small value={counter} show={show} />
       </h1>
       <button type='button' onClick={() => increment()}>Add 1</button>
       <button type='button' onClick={() => reset()}>Reset</button>
