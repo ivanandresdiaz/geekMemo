@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import Memorize from './Memorize';
 
 const App = () => {
   return (
     <div>
-      <h1>
-        Bienvenido a React
-      </h1>
+      <Memorize />
     </div>
   );
 };
